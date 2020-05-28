@@ -28,6 +28,7 @@ void draw(){
 }
 
 void horizontalLine(){
+  strokeWeight(5);
   stroke(random(255),random(255),random(255));
   line(hx1,hy1,width,hy2);
   hy1 += hs;
@@ -43,6 +44,7 @@ void horizontalLine(){
 }
 
 void verticalLine(){
+  strokeWeight(5);
   stroke(random(255),random(255),random(255));
   line(vx1,vy1,vx2,height);
   vx1 += vs;
