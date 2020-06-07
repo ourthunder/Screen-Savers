@@ -119,7 +119,7 @@ void draw(){
   initDiameter   += 5;
   
   // restart each ellipse from the center once it's bigger than the screen
-  recenterEllipses();
+  //recenterEllipses();
 
   
 }
